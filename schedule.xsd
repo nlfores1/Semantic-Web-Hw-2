@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name = "schedule"> 
+		<xs:complexType>
+			<xs:sequence>
+					<xs:element name = "year"> 
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+									<xs:minLength value="4"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name = "semester" type="xs:string"/>
+					<xs:element name = "courses" type="xs:string"/> 
+					<xs:element name = "identifier" type="xs:string"/> 
+					<xs:element name = "classNumber" type="xs:string"/>
+					<xs:element name = "number">
+						<xs:simpleType>
+							<xs:restriction base = "xs:string">
+								<xs:minLength value="3"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name = "title" type="xs:string"/>
+					<xs:element name = "credits" type="xs:string"/> 
+					<xs:element name = "prerequisite" type="xs:string"/>
+					<xs:element name = "description" type="xs:string"/> 
+					
+					<xs:element name = "section"> 
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="number">
+									<xs:simpleType>
+										<xs:restriction base = "xs:string">
+											<xs:minLength value="3"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:element>
+								<xs:element name="instructor" type="xs:string"/>
+								<xs:element name="scheduleNumber">
+									<xs:simpleType>
+										<xs:restriction base = "xs:string">
+											<xs:minLength value="4"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:element>
+								<xs:element name="room" type="xs:string"/>
+								<xs:element name="days" type="xs:string"/>
+								<xs:element name="startime" type="xs:string"/>
+								<xs:element name="endtime" type="xs:string"/>
+								<xs:element name="status" type="xs:string"/>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
