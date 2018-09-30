@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schedule 
+xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="shedule.xsd">
+	 
+			<Course> 
+				<title> Computer Graphics </title>
+				<semester> Fall 2018 </semester>
+				<identifier> CMSC </identifier>
+				<classNumber> 1193 </classNumber>
+				<number> 435 </number>
+				<credits> 3 </credits>
+				<prerequisite> CMSC 313, CMSC 341, MATH 221 </prerequisite>
+				<description> 
+					An introduction to the fundamentals of ineractive computer graphics.
+					Topics include graphics hardware, line drawing, area filling, clipping
+					two-dimensonal and three-dimensonal geometrical transforms.
+				</description>
+				
+				<section>
+				
+					<number> 001 </number>
+					<instructor> Adam Bargteil </instructor>
+					<room> Sherman Hall 014 </room>
+					<days> Monday, Wednesday</days>
+					<startime> 1:00 PM </startime>
+					<endtime> 2:15 PM </endtime>
+					<status> Open </status>
+				
+				</section>
+			</Course>
+			
+			<Course> 
+				<title>Database Management System </title>
+				<semester> Fall 2018 </semester>
+				<identifier> CMSC </identifier>
+				<classNumber> 1131 </classNumber>
+				<number> 461 </number>
+				<credits> 3 </credits>
+				<prerequisite> CMSC 341 </prerequisite>
+				<description> 
+					This course covers database management and the diffrent data
+					models used to structure the logical view of databases. The course
+					also covers database design and implementation techniques.
+				</description>
+				
+				<section>
+					<number> 001 </number>
+					<instructor> Konstantin Kalpakis </instructor>
+					<room> Biological Sciences 120 </room>
+					<days> Tuesday, Thursday</days>
+					<startime> 11:30 AM </startime>
+					<endtime> 12:45 PM </endtime>
+					<status> Closed </status>
+				</section>
+			</Course>
+			
+			<Course> 
+				<title>Database Management System </title>
+				<semester> Fall 2018 </semester>
+				<identifier> CMSC </identifier>
+				<classNumber> 1131 </classNumber>
+				<number> 461 </number>
+				<credits> 3 </credits>
+				<prerequisite> CMSC 341 </prerequisite>
+					<description> 
+						This course covers database management and the diffrent data
+						models used to structure the logical view of databases. The course
+						also covers database design and implementation techniques.
+					</description>
+					
+				<section>
+					<number> 002 </number>
+					<instructor> Konstantin Kalpakis </instructor>
+					<room> Biological Sciences 120 </room>
+					<days> Tuesday, Thursday</days>
+					<startime> 1:00 PM </startime>
+					<endtime> 2:15 PM </endtime>
+					<status> Closed </status>
+				</section>
+			</Course>
+</schedule>
