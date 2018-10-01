@@ -54,21 +54,6 @@ xsi:noNamespaceSchemaLocation="shedule.xsd">
 					<endtime> 12:45 PM </endtime>
 					<status> Closed </status>
 				</section>
-			</Course>
-			
-			<Course> 
-				<title>Database Management System </title>
-				<semester> Fall 2018 </semester>
-				<identifier> CMSC </identifier>
-				<classNumber> 1131 </classNumber>
-				<number> 461 </number>
-				<credits> 3 </credits>
-				<prerequisite> CMSC 341 </prerequisite>
-					<description> 
-						This course covers database management and the diffrent data
-						models used to structure the logical view of databases. The course
-						also covers database design and implementation techniques.
-					</description>
 					
 				<section>
 					<number> 002 </number>
@@ -79,5 +64,7 @@ xsi:noNamespaceSchemaLocation="shedule.xsd">
 					<endtime> 2:15 PM </endtime>
 					<status> Closed </status>
 				</section>
+				
 			</Course>
+			
 </schedule>
