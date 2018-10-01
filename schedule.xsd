@@ -20,7 +20,7 @@
 							<xs:element name = "credits" type="xs:string" /> 
 							<xs:element name = "prerequisite" type="xs:string" />
 							<xs:element name = "description" type="xs:string" /> 
-							<xs:element name = "section" > 
+							<xs:element name = "section" maxOccurs="unbounded"> 
 								<xs:complexType mixed = "true">
 									<xs:sequence  minOccurs="0" maxOccurs="unbounded">		
 										<xs:element name = "number">
